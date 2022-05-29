@@ -27,18 +27,19 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0.5rem;
+  padding: 1rem;
   background-color: #35424A;
-  border-bottom: 3px solid rgb(165, 26, 165);
+  border-bottom: 3px solid #a9508b;
 }
 nav .clarusway {
   color: white;
   font-size: 1.2rem;
   font-weight: 700;
+  letter-spacing: 3px;
 }
 nav span {
-  font-size: 1.5rem;
-  color: rgb(165, 26, 165);
+  font-size: 2rem;
+  color: #a9508b;
 }
 nav ul {
   display: flex;
@@ -57,7 +58,7 @@ nav ul li a {
   font-weight: 700;
 }
 nav ul li .nav__link--active {
-  color: rgb(146, 15, 107);
+  color: #a9508b;
 }
 
 .main-about {
@@ -122,6 +123,9 @@ nav ul li .nav__link--active {
   background-color: #35424A;
   color: #eee;
   padding: 1rem;
+}
+.subscribe .newsletter {
+  font-size: 1.5rem;
 }
 .subscribe .email {
   display: flex;
@@ -219,6 +223,184 @@ nav ul li .nav__link--active {
   border-radius: 0.5rem;
 }
 
+@media screen and (min-width: 575px) {
+  .nav {
+    display: flex;
+    flex-direction: column;
+  }
+  .nav .clarusway {
+    border-bottom: 2px solid #a9508b;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+  .nav .nav__list {
+    display: flex;
+    flex-direction: column;
+    line-height: 3rem;
+  }
+
+  .bgi {
+    text-align: center;
+  }
+
+  .subscribe .email {
+    display: flex;
+    flex-direction: column;
+  }
+  .subscribe .email input {
+    margin-bottom: 0.5rem;
+    height: 2rem;
+    width: 10rem;
+    border: none;
+    outline: none;
+    padding: 0.5rem;
+  }
+  .subscribe .email button {
+    height: 1.5rem;
+    width: 5rem;
+    background-color: rgb(230, 79, 9);
+    color: #eee;
+    border: none;
+  }
+
+  .main {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .main-about .left p {
+    margin-bottom: 3rem;
+  }
+  .main-about .left .bg-p {
+    height: 45%;
+  }
+  .main-about .right {
+    height: 45%;
+  }
+
+  .right-services {
+    height: 50vh;
+  }
+}
+@media screen and (min-width: 576px) {
+  .right-services {
+    height: 70vh;
+  }
+}
+@media screen and (min-width: 768px) {
+  .nav {
+    display: flex;
+    flex-direction: row;
+  }
+  .nav .clarusway {
+    text-align: center;
+    border: none;
+    margin-bottom: 0;
+  }
+  .nav .nav__list {
+    display: flex;
+    flex-direction: row;
+    line-height: 0;
+  }
+
+  .subscribe .email {
+    display: flex;
+    flex-direction: row;
+    padding-right: 1.5rem;
+  }
+  .subscribe .email input {
+    height: 3rem;
+    width: 20rem;
+    font-size: 1.1rem;
+    margin-right: 1.5rem;
+  }
+  .subscribe .email button {
+    height: 3rem;
+    width: 5.5rem;
+    font-size: 1.1rem;
+  }
+
+  .right-services {
+    height: 53vh;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .main {
+    display: flex;
+    flex-direction: row;
+    height: 25vh;
+  }
+  .main .main-about .right-services {
+    height: 50vh;
+  }
+  .main .main-about .main-services {
+    margin-bottom: -1.4rem;
+  }
+}
+@media screen and (min-width: 1600px) {
+  .container h2 {
+    font-size: 2rem;
+  }
+  .container h3 {
+    font-size: 2rem;
+  }
+  .container .newsletter {
+    font-size: 2rem;
+  }
+
+  .nav .clarusway {
+    padding: 0 2rem;
+    font-size: 1.5rem;
+    font-weight: 900;
+  }
+  .nav span {
+    font-size: 2.5rem;
+  }
+  .nav .nav__list {
+    padding-right: 1.5rem;
+  }
+
+  .bgi p {
+    font-size: 1.3rem;
+  }
+
+  .subscribe .newsletter {
+    font-size: 1.5rem;
+  }
+  .subscribe input {
+    height: 2rem;
+    width: 15rem;
+    font-size: 1.1rem;
+    margin-right: 1.5rem;
+  }
+  .subscribe button {
+    height: 3rem;
+    width: 5.5rem;
+    font-size: 1.1rem;
+  }
+
+  footer {
+    height: 15vh;
+  }
+
+  .main {
+    height: 35vh;
+  }
+
+  .main-about {
+    height: 37vh;
+  }
+  .main-about .left .bg-p {
+    height: 7rem;
+  }
+  .main-about .right {
+    height: 17vh;
+  }
+
+  .main-services {
+    margin-bottom: 0;
+  }
+}
 body {
   font-family: "Roboto", sans-serif;
   height: 100vh;

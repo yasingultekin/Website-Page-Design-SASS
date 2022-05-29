@@ -23,6 +23,9 @@
     background-color: $bgc-color;
     color: $text-color;
     padding: 1rem;
+    .newsletter {
+        font-size: 1.5rem;
+    }
     .email {
         display: flex;
         input {

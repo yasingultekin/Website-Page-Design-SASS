@@ -1,0 +1,208 @@
+@include media-xsm {
+    .nav {
+        display: flex;
+        flex-direction: column;
+        .clarusway {
+            border-bottom: 2px solid #a9508b;
+            margin-bottom: 2rem;
+            text-align: center;
+        }
+        .nav__list {
+            display: flex;
+            flex-direction: column;
+            line-height: 3rem;
+        }
+    }
+
+    .bgi {
+        text-align: center;
+    }
+
+    .subscribe {
+        .email {
+            display: flex;
+            flex-direction: column;
+            input {
+                margin-bottom: 0.5rem;
+                height: 2rem;
+                width: 10rem;
+                border: none;
+                outline: none;
+                padding: .5rem;
+            }
+            button {
+                height: 1.5rem;
+                width: 5rem;
+                background-color: $btn-bgc;
+                color: $text-color;
+                border: none;
+            }
+        }
+    }
+
+    .main {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .main-about {
+        .left {
+            p {
+                margin-bottom: 3rem;
+            }
+            .bg-p {
+                height: 45%;
+            }
+        }
+        .right {
+            height: 45%;
+        }
+    }
+    .right-services {
+        height: 50vh;
+    }
+    
+}
+
+@include media-sm {
+    .right-services {
+        height: 70vh;
+    }
+}
+
+@include media-md {
+    .nav {
+        display: flex;
+        flex-direction: row;
+         
+        .clarusway {
+            text-align: center;
+            border: none;
+            margin-bottom: 0;
+        }
+        .nav__list {
+            display: flex;
+            flex-direction: row;
+            line-height: 0;
+        }
+    }
+    .subscribe {
+        .email {
+            display: flex;
+            flex-direction: row;
+            padding-right: 1.5rem;
+            input {
+                height: 3rem;
+                width: 20rem;
+                font-size: 1.1rem;
+                margin-right: 1.5rem;
+            }
+            button {
+                height: 3rem;
+                width: 5.5rem;
+                font-size: 1.1rem;
+            }
+        }
+    }
+    .right-services {
+        height: 53vh;
+    }
+}
+
+@include media-lg {
+    .main {
+        display: flex;
+        flex-direction: row;
+         height: 25vh;
+         .main-about {
+            .right-services {
+                height: 50vh;
+            }
+            .main-services {
+                margin-bottom: -1.4rem;
+            }
+       
+        }
+       
+    }
+    
+}
+
+@include  media-xl {
+    
+    .container {
+        h2 {
+            font-size: 2rem;
+        }
+        h3 {
+            font-size: 2rem;
+        }
+        .newsletter {
+            font-size: 2rem;
+        }
+        
+    }
+    
+    .nav {
+        .clarusway {
+            padding: 0 2rem;
+            font-size: 1.5rem;
+            font-weight: 900;
+        }
+        span {
+            font-size: 2.5rem;
+        }
+
+        .nav__list {
+            padding-right: 1.5rem;
+        }
+    }
+  
+    .bgi {
+       
+        p {
+            font-size: 1.3rem;
+        }
+    }
+
+    .subscribe {
+        .newsletter {
+            font-size: 1.5rem;
+        }
+        input {
+            height: 2rem;
+            width: 15rem;
+            font-size: 1.1rem;
+            margin-right: 1.5rem;
+        }
+        button {
+            height: 3rem;
+            width: 5.5rem;
+            font-size: 1.1rem;
+        }
+    }
+
+    footer {
+        height: 15vh;
+    }
+
+    .main {
+        height: 35vh;
+    }
+    .main-about {
+        height: 37vh;
+        
+        .left {
+            .bg-p {
+                height: 7rem;
+            }
+        }
+        .right {
+            height: 17vh;
+        }
+    }
+
+    .main-services {
+        margin-bottom: 0;
+    }
+}
