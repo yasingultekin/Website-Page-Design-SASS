@@ -46,7 +46,6 @@
 .main {
     @include super();
     .html {
-        border: 1px solid red;
         text-align: center;
         img {
             margin-top: 1.5rem;

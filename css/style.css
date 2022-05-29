@@ -1,3 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 footer {
   background-color: #35424A;
   padding: 1rem;
@@ -104,7 +111,6 @@ nav ul li .nav__link--active {
   align-items: center;
 }
 .main .html, .main .css, .main .design {
-  border: 1px solid red;
   text-align: center;
 }
 .main .html img, .main .css img, .main .design img {
@@ -118,6 +124,10 @@ nav ul li .nav__link--active {
 }
 .main .html p, .main .css p, .main .design p {
   margin-bottom: 1.5rem;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  height: 100vh;
 }
 
 /*# sourceMappingURL=style.css.map */
