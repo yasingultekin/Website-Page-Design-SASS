@@ -1,9 +1,27 @@
+footer {
+  background-color: #35424A;
+  padding: 1rem;
+  text-align: center;
+  margin-top: 1rem;
+}
+footer p {
+  color: #eee;
+  margin-bottom: 1rem;
+}
+footer img {
+  height: 5vh;
+}
+
+.footer-about {
+  margin-top: 13rem;
+}
+
 nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 0.5rem;
-  background-color: rgb(12, 12, 44);
+  background-color: #35424A;
   border-bottom: 3px solid rgb(165, 26, 165);
 }
 nav .clarusway {
@@ -33,6 +51,73 @@ nav ul li a {
 }
 nav ul li .nav__link--active {
   color: rgb(146, 15, 107);
+}
+
+.bgi {
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background: linear-gradient(rgba(24, 23, 23, 0.26), rgba(17, 17, 17, 0.7)), url("../../images/showcase.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+.bgi h2 {
+  font-size: 2rem;
+  margin-bottom: 3rem;
+  font-weight: 900;
+}
+
+.subscribe {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #35424A;
+  color: #eee;
+  padding: 1rem;
+}
+.subscribe .email {
+  display: flex;
+}
+.subscribe .email input {
+  margin-right: 0.5rem;
+  height: 2rem;
+  width: 15rem;
+  border: none;
+  outline: none;
+  padding: 0.5rem;
+}
+.subscribe .email button {
+  height: 2rem;
+  width: 5rem;
+  background-color: rgb(230, 79, 9);
+  color: #eee;
+  border: none;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main .html, .main .css, .main .design {
+  border: 1px solid red;
+  text-align: center;
+}
+.main .html img, .main .css img, .main .design img {
+  margin-top: 1.5rem;
+  width: 25%;
+}
+.main .html h3, .main .css h3, .main .design h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin: 1rem 0;
+}
+.main .html p, .main .css p, .main .design p {
+  margin-bottom: 1.5rem;
 }
 
 /*# sourceMappingURL=style.css.map */
