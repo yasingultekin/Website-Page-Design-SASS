@@ -1,0 +1,63 @@
+.main-services {
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 2rem;
+    .left-services {
+        .design {
+            background-color: lightgray;
+            padding: 1rem;
+            margin-top: 1rem;
+            h3 {
+                margin-top: 1rem;
+            }
+            p {
+                margin-top: 1rem;
+            }
+        }
+        .maintenance, .hosting {
+            @extend .design;
+        }
+    }
+}
+
+.right-services {
+    background-color: $bgc-color;
+    color: $text-color;
+    padding: 1rem;
+    height: 60vh;
+    h3 {
+       margin: 1rem 0;
+    }
+    input {
+        width: 100%;
+        padding: 1rem;
+        border-radius: 5px;
+        color: $text-color;
+        margin-bottom: .5rem;
+        border: none;
+        outline: none;
+    }
+    
+    label {
+        display: block;
+        margin-bottom: .5rem;
+    }
+    textarea {
+        width: 100%;
+        padding: .5rem;
+        border-radius: 5px;
+        color: $text-color;
+        margin-bottom: .5rem;
+        border: none;
+        outline: none;
+    }
+    button {
+            height: 2rem;
+            width: 5rem;
+            background-color: $btn-bgc;
+            color: $text-color;
+            border: none;
+            border-radius: .5rem;
+    }
+}
