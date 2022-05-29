@@ -144,6 +144,7 @@ nav ul li .nav__link--active {
   background-color: rgb(230, 79, 9);
   color: #eee;
   border: none;
+  cursor: pointer;
 }
 
 .main {
@@ -221,6 +222,7 @@ nav ul li .nav__link--active {
   color: #eee;
   border: none;
   border-radius: 0.5rem;
+  cursor: pointer;
 }
 
 @media screen and (min-width: 575px) {
