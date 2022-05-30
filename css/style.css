@@ -268,6 +268,7 @@ nav ul li .nav__link--active {
   .main {
     display: flex;
     flex-direction: column;
+    height: 50%;
   }
 
   .main-about .left p {
@@ -281,7 +282,7 @@ nav ul li .nav__link--active {
   }
 
   .right-services {
-    height: 63%;
+    height: 65%;
   }
   .right-services button {
     margin-top: 0.5rem;
@@ -289,7 +290,7 @@ nav ul li .nav__link--active {
 }
 @media screen and (min-width: 576px) {
   .right-services {
-    height: 50vh;
+    height: 70%;
   }
 }
 @media screen and (min-width: 768px) {
@@ -314,13 +315,13 @@ nav ul li .nav__link--active {
     padding-right: 1.5rem;
   }
   .subscribe .email input {
-    height: 3rem;
-    width: 20rem;
+    height: 2.5rem;
+    width: 15rem;
     font-size: 1.1rem;
-    margin-right: 1.5rem;
+    margin-right: 1rem;
   }
   .subscribe .email button {
-    height: 3rem;
+    height: 2.5rem;
     width: 5.5rem;
     font-size: 1.1rem;
   }
@@ -340,13 +341,11 @@ nav ul li .nav__link--active {
   .main {
     display: flex;
     flex-direction: row;
-    height: 25vh;
+    height: 50%;
   }
-  .main .main-about .right-services {
-    height: 80%;
-  }
-  .main .main-about .main-services {
-    margin-bottom: -1.4rem;
+
+  .main-services .right-services {
+    height: 85%;
   }
 }
 @media screen and (min-width: 1600px) {
@@ -358,6 +357,10 @@ nav ul li .nav__link--active {
   }
   .container .newsletter {
     font-size: 2rem;
+  }
+
+  .main {
+    height: 50%;
   }
 
   .nav .clarusway {
@@ -411,6 +414,9 @@ nav ul li .nav__link--active {
 
   .main-services {
     margin-bottom: 0;
+  }
+  .main-services .right-services {
+    height: 80%;
   }
 }
 body {

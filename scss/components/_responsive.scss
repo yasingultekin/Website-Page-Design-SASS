@@ -43,6 +43,7 @@
     .main {
         display: flex;
         flex-direction: column;
+        height: 50%;
     }
 
     .main-about {
@@ -59,7 +60,7 @@
         }
     }
     .right-services {
-        height:63%;
+        height:65%;
         button {
             margin-top: .5rem;
         }
@@ -69,7 +70,7 @@
 
 @include media-sm {
     .right-services {
-        height: 50vh;
+        height: 70%;
     }
 }
 
@@ -95,13 +96,13 @@
             flex-direction: row;
             padding-right: 1.5rem;
             input {
-                height: 3rem;
-                width: 20rem;
+                height: 2.5rem;
+                width: 15rem;
                 font-size: 1.1rem;
-                margin-right: 1.5rem;
+                margin-right: 1rem;
             }
             button {
-                height: 3rem;
+                height: 2.5rem;
                 width: 5.5rem;
                 font-size: 1.1rem;
             }
@@ -130,17 +131,13 @@
     .main {
         display: flex;
         flex-direction: row;
-         height: 25vh;
-         .main-about {
-            .right-services {
-                height: 80%;
-            }
-            .main-services {
-                margin-bottom: -1.4rem;
-            }
-       
+         height: 50%;
+         
+    }
+    .main-services {
+        .right-services {
+            height: 85%;
         }
-       
     }
     
 }
@@ -158,6 +155,11 @@
             font-size: 2rem;
         }
         
+    }
+
+    .main {
+        height: 50%;
+         
     }
     
     .nav {
@@ -221,5 +223,8 @@
 
     .main-services {
         margin-bottom: 0;
+        .right-services {
+            height: 80%;
+        }
     }
 }
