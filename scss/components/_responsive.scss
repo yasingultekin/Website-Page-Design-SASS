@@ -48,18 +48,21 @@
     .main-about {
         .left {
             p {
-                margin-bottom: 3rem;
+                margin-bottom: 1rem;
             }
             .bg-p {
-                height: 45%;
+                height: 65%;
             }
         }
         .right {
-            height: 45%;
+            height: 55%;
         }
     }
     .right-services {
-        height: 50vh;
+        height:63%;
+        button {
+            margin-top: .5rem;
+        }
     }
     
 }
@@ -104,8 +107,22 @@
             }
         }
     }
+
+    .main-about {
+        
+        .left {
+            .bg-p {
+                height: 50%;
+            }
+           }
+        .right {
+            height: 55%;
+        
+        }
+    }
+    
     .right-services {
-        height: 53vh;
+        height: 80%;
     }
 }
 

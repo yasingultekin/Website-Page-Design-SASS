@@ -271,17 +271,20 @@ nav ul li .nav__link--active {
   }
 
   .main-about .left p {
-    margin-bottom: 3rem;
+    margin-bottom: 1rem;
   }
   .main-about .left .bg-p {
-    height: 45%;
+    height: 65%;
   }
   .main-about .right {
-    height: 45%;
+    height: 55%;
   }
 
   .right-services {
-    height: 50vh;
+    height: 63%;
+  }
+  .right-services button {
+    margin-top: 0.5rem;
   }
 }
 @media screen and (min-width: 576px) {
@@ -322,8 +325,15 @@ nav ul li .nav__link--active {
     font-size: 1.1rem;
   }
 
+  .main-about .left .bg-p {
+    height: 50%;
+  }
+  .main-about .right {
+    height: 55%;
+  }
+
   .right-services {
-    height: 53vh;
+    height: 80%;
   }
 }
 @media screen and (min-width: 1024px) {
